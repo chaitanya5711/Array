@@ -1,0 +1,15 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int arr[] = {2, 3, 4, 5, 6, 7, 8};
+        int sum = 0;
+
+        // Calculate the sum of all elements
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+
+        // Calculate the average
+        int average = sum / arr.length;
+        System.out.println("Average: " + average);
+    }
+}
